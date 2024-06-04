@@ -1,0 +1,69 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/tiago/Desktop/LSD/aula1/TESTE2/simulation/qsim
+T_opt
+!s110 1708425926
+V0I7F=QcimE@acGT^T[W;=3
+04 20 4 work GateDemo_vlg_vec_tst fast 0
+=1-000ae431a4f1-65d482c6-198f4-487a
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+vGateDemo
+Z3 !s110 1708425925
+!i10b 1
+!s100 8ARkWaT<6I9b9=Q_>^A9<1
+IMEaXk59D]VM=Zlf:m1oGa1
+R1
+w1708425925
+8GateDemo.vo
+FGateDemo.vo
+!i122 4
+L0 32 72
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z6 !s108 1708425925.000000
+!s107 GateDemo.vo|
+!s90 -work|work|GateDemo.vo|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@gate@demo
+vGateDemo_vlg_vec_tst
+R3
+!i10b 1
+!s100 DakDVCbYI<hX_3Xa8TFLO3
+I`B>U6PnTWMB?fHnjmAd0F3
+R1
+w1708425924
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 5
+L0 30 36
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 0
+R7
+R2
+n@gate@demo_vlg_vec_tst

@@ -1,0 +1,105 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/tiago/Desktop/LSD/aula7_1/simulation/questa
+T_opt
+!s110 1713864280
+VMM8kLi?E8WQA:^Ol[Rj3`0
+04 11 8 work dec2_4en_tb stimulus 1
+=1-000ae431a4f1-66277e58-1281f-1665
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work rtl_work
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+Edec2_4en
+Z1 w1713863257
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8/home/tiago/Desktop/LSD/aula7_1/Dec2_4En.vhd
+Z5 F/home/tiago/Desktop/LSD/aula7_1/Dec2_4En.vhd
+l0
+L3 1
+VML]VdVcZ5;OF94n4LTjPB3
+!s100 ok6eC<V28ZZE;UP2g8O`A3
+Z6 OL;C;2021.2;73
+31
+Z7 !s110 1713863694
+!i10b 1
+Z8 !s108 1713863694.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|/home/tiago/Desktop/LSD/aula7_1/Dec2_4En.vhd|
+Z10 !s107 /home/tiago/Desktop/LSD/aula7_1/Dec2_4En.vhd|
+!i113 0
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+Z13 DEx4 work 8 dec2_4en 0 22 ML]VdVcZ5;OF94n4LTjPB3
+!i122 0
+l10
+L9 19
+VB:gg0U:U^EKmm>2b6Nme@1
+!s100 cibJjQ8ZMNR9=NAlk>n2c1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Edec2_4en_tb
+Z14 w1713863658
+R2
+R3
+!i122 3
+R0
+Z15 8/home/tiago/Desktop/LSD/aula7_1/test.vhd
+Z16 F/home/tiago/Desktop/LSD/aula7_1/test.vhd
+l0
+L4 1
+VJFn^2kR:<odPWJMeHK4`[0
+!s100 EGUfSIK5TJKnYz=C^oXk`0
+R6
+32
+Z17 !s110 1713864154
+!i10b 1
+Z18 !s108 1713864154.000000
+Z19 !s90 -reportprogress|300|-work|work|/home/tiago/Desktop/LSD/aula7_1/test.vhd|
+Z20 !s107 /home/tiago/Desktop/LSD/aula7_1/test.vhd|
+!i113 0
+Z21 o-work work
+R12
+Astimulus
+R13
+R2
+R3
+DEx4 work 11 dec2_4en_tb 0 22 JFn^2kR:<odPWJMeHK4`[0
+!i122 3
+l12
+L6 30
+V=:Xg5^@IBOzA5=:4l9CH20
+!s100 1SJ?PcMMYoT8FD4;B=OdQ0
+R6
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R12

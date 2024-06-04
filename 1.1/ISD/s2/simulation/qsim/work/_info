@@ -1,0 +1,118 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/tiago/Desktop/s2/simulation/qsim
+T_opt
+!s110 1702918812
+VWP6M9]l_7Ak4YmPKWY@a`3
+04 15 8 work def_vhd_vec_tst def_arch 1
+=1-000ae431a4f1-65807a9c-5c3fe-1075d
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work -L cycloneive -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim +acc
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+R1
+Edef
+Z2 w1702919071
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 gn]m8U<PzXZH32IDQ4:hj3
+Z4 DPx10 cycloneive 21 cycloneive_components 0 22 cSe5`^NYM;IRV3WNS^Q7a2
+Z5 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z6 DPx6 altera 11 dffeas_pack 0 22 ^oS01<AhH<ZbI@CNcPk2V0
+Z7 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z10 DPx6 altera 28 altera_primitives_components 0 22 Y19K[Kjfb73Y`YfbP9Kf30
+!i122 12
+R1
+Z11 8DEF.vho
+Z12 FDEF.vho
+l0
+L37 1
+V_`QVdGm[LXOLgYT0njc=92
+!s100 @ME:`DYS2]UQA_S]W9zYk1
+Z13 OL;C;2021.2;73
+32
+Z14 !s110 1702919071
+!i10b 1
+Z15 !s108 1702919071.000000
+Z16 !s90 -work|work|DEF.vho|
+Z17 !s107 DEF.vho|
+!i113 0
+Z18 o-work work
+Z19 tExplicit 1 CvgOpt 0
+Astructure
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+DEx4 work 3 def 0 22 _`QVdGm[LXOLgYT0njc=92
+!i122 12
+l77
+L46 257
+Vkd3d5ML3kf>`3>jNlcTD82
+!s100 B=J4PU:j7HTS6Wj_2N3:P3
+R13
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Edef_vhd_vec_tst
+Z20 w1702919070
+R8
+R9
+!i122 13
+R1
+Z21 8MEF.vwf.vht
+Z22 FMEF.vwf.vht
+l0
+L32 1
+V2XK<>eTL]hHTF]1TPA_UV1
+!s100 ;Wn0BWXk4?MY8h`=TLl0S0
+R13
+32
+R14
+!i10b 1
+R15
+Z23 !s90 -work|work|MEF.vwf.vht|
+Z24 !s107 MEF.vwf.vht|
+!i113 0
+R18
+R19
+Adef_arch
+R8
+R9
+Z25 DEx4 work 15 def_vhd_vec_tst 0 22 2XK<>eTL]hHTF]1TPA_UV1
+!i122 13
+l49
+Z26 L34 48
+Z27 V`3a^m>I77Z9D9HCQ?I<mT1
+Z28 !s100 5OzNE5=AiB5HAPP9lUWgJ0
+R13
+32
+R14
+!i10b 1
+R15
+R23
+R24
+!i113 0
+R18
+R19

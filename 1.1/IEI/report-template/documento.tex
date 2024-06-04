@@ -1,0 +1,209 @@
+\documentclass{report}
+\usepackage[T1]{fontenc} % Fontes T1
+\usepackage[utf8]{inputenc} % Input UTF8
+\usepackage[backend=biber, style=ieee]{biblatex} % para usar bibliografia
+\usepackage{csquotes}
+\usepackage[portuguese]{babel} %Usar língua portuguesa
+\usepackage{blindtext} % Gerar texto automaticamente
+\usepackage[printonlyused]{acronym}
+\usepackage{hyperref} % para autoref
+\usepackage{graphicx}
+\usepackage{indentfirst}
+
+\graphicspath{ {./images/} }
+\bibliography{bibliografia}
+
+
+\begin{document}
+%%
+% Definições
+%
+\def\titulo{A importância da criptografia na segurança de dados}
+\def\data{DATA}
+\def\autores{Tiago Fernandes, Simone Pascoal}
+\def\autorescontactos{(120271) tiagoafernandes@ua.pt, (79319) simone.pascoal@ua.pt}
+\def\versao{1}
+\def\departamento{Dept. de Eletrónica, Telecomunicações e Informática}
+\def\empresa{Universidade de Aveiro}
+\def\logotipo{ua.pdf}
+%
+%%%%%% CAPA %%%%%%
+%
+\begin{titlepage}
+
+\begin{center}
+%
+\vspace*{50mm}
+%
+{\Huge \titulo}\\ 
+%
+\vspace{10mm}
+%
+{\Large \empresa}\\
+%
+\vspace{10mm}
+%
+{\LARGE \autores}\\ 
+%
+\vspace{30mm}
+%
+\begin{figure}[h]
+\center
+\includegraphics{\logotipo}
+\end{figure}
+%
+\vspace{30mm}
+\end{center}
+%
+\begin{flushright}
+\versao
+\end{flushright}
+\end{titlepage}
+
+%%  Página de Título %%
+\title{%
+{\Huge\textbf{\titulo}}\\
+{\Large \departamento\\ \empresa}
+}
+%
+\author{%
+    \autores \\
+    \autorescontactos
+}
+%
+\date{\today}
+%
+\maketitle
+
+\pagenumbering{roman}
+
+%%%%%% RESUMO %%%%%%
+\begin{abstract}
+    A criptografia está presente em todos os sistemas informáticos e usados desde sempre. Colocar a informação de modo a que pareça ser um conjunto de caracteres aleatório é uma das melhores maneiras de proteção de dados, a encriptação é usada em trasações e comunicações seguras. 
+    Desde antes de cristo, com metodos usando papel e caneta, à segunda guerra mundial, com as comunicações entre soldados,  e até agora, com metodos para enviar ficheiros com chaves publicas e mensagens digitais, a criptografia sempre foi o método mais usado para esconder dados sensiveis e cada vez mais de uma maneira mais complexa e que demora bastante tempo ou até impossivel de descodificar.
+    Invasores podem usar a encriptação de maneira não ética, escondendo as informações de dados do dono sendo assim quase impossivel reverter o processo e os criminosos pedem uma quantia monetária para desvendarem a \textit{key} à vitima desse ataque \textit{ransomware}.
+    Por tanto, a criptografia é um método bastante importante na segurança de dados, porém um sistema informático  é 100 por cento eficaz com a junção de outros métodos de proteção ,senão torna-se um alvo fácil de ataques para tentar desvendar qual a chave usada para criptografar e assim facilitando os invasores a recolher dados sensiveis.
+\end{abstract}
+
+%%%%%% Agradecimentos %%%%%%
+% Segundo glisc deveria aparecer após conclusão...
+\renewcommand{\abstractname}{Agradecimentos}
+\begin{abstract}
+Eventuais agradecimentos.
+Comentar bloco caso não existam agradecimentos a fazer.
+\end{abstract}
+
+\renewcommand{\contentsname}{Índice}
+\tableofcontents
+% \listoftables     % descomentar se necessário
+% \listoffigures    % descomentar se necessário
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+\pagenumbering{arabic}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Introdução}
+\label{chap.introducao}
+
+Vivemos numa era em que a crescente \textbf{digitalização} tem proporcionado uma série de vantagens, tais como, comunicação mais rápida e acessível, fácil acesso à informação, possibilidade de teletrabalho, entre outras, mas também tem suscitado preocupações relacionadas com a segurança e privacidade dos dados sensíveis. Diariamente, uma quantidade significativa de informação, tanto de empresas como de pessoas particulares, é armazenada e partilhada digitalmente, tornando-se assim mais vulnerável à interceção por parte de terceiros mal-intencionados \cite{Patil.16, Gencoglu.19}. 
+
+Atualmente, são cada vez mais frequentes as \underline{ameaças cibernéticas} e os casos de violação de dados, e é neste contexto que se reveste de extrema importância a utilização de tecnologias, como a criptografia, para salvaguardar a confidencialidade, autenticidade, integridade e não repúdio das informações. A decisão para a escolha deste tema foi motivada pela crescente preocupação global com a segurança da informação \cite{Patil.16, Gencoglu.19}. 
+
+A criptografia é uma solução que converte informações confidenciais num formato ilegível que apenas o destinatário consegue decifrar, conferindo uma proteção importante contra a pirataria informática e garantindo uma maior proteção às empresas e indivíduos. Assim, a escolha deste tema relaciona-se com a urgência de abordar a importância de preservar a segurança de dados, reconhecendo o papel da criptografia como salvaguarda contra ameaças digitais, garantindo a confidencialidade dos dados num mundo cada vez mais interconectado \cite{Patil.16, Gencoglu.19}.
+
+Este trabalho está dividido em cinco capítulos.
+
+Depois desta introdução, no \autoref{chap.metodologia}, são abordados os principais métodos de criptografia, focando na distinção entre criptografia simétrica e assimétrica, e apresentando alguns exemplos representativos de algoritmos em cada uma dessas técnicas.
+No \autoref{chap.resultados} são apresentados os resultados obtidos com estatísticas de falhas de segurança e eficácia.
+Depois no \autoref{chap.analise} onde serão mostrados benefícios da criptografia e dificuldades na sua aplicação.
+Finalmente no \autoref{chap.conclusao} onde concluimos o trabalho com apreciações finais.
+
+
+\chapter{Metodologia}
+\label{chap.metodologia}
+
+
+\section{Principais métodos de criptografia}
+Existem diversos métodos de criptografia, sendo notáveis a criptografia simétrica e a criptografia assimétrica.
+
+A criptografia simétrica baseia-se no uso de uma única chave secreta, utilizada tanto para cifrar como para decifrar informações específicas. Esta técnica distingue-se não apenas pela sua rapidez, mas também pela robustez criptográfica presente em cada bit da chave. Contudo, a sua principal vulnerabilidade reside na necessidade de compartilhar a chave de forma segura \cite{Conrad.17}.
+
+A criptografia simétrica pode adotar várias abordagens, incluindo as cifras de blocos (block ciphers) e as cifras contínuas (stream ciphers). No âmbito das cifras de blocos, a criptografia realiza-se de forma repetida, encriptando conjuntos de dados (blocos) em cada ronda. Por outro lado, nas cifras contínuas, a criptografia processa-se bit a bit, originando uma sequência contínua de dados encriptados, designada por “stream” \cite{Conrad.17}.
+
+No âmbito das cifras de blocos, destaca-se o amplamente utilizado algoritmo AES (Advanced Encryption Standard), desenvolvido por Joan Daemen e Vincent Rijmen em 1998, o qual oferece suporte a chaves de 128, 192 e 256 bits. O AES encripta um bloco de dados de 128 bits que é organizado numa matriz 4x4, também conhecida por estado. A matriz de estado é sujeita a várias rondas de transformação, sendo o número de rondas determinado pelo tamanho da chave (10 para 128 bits, 12 para 192 bits e 14 para 256 bits). Após a adição inicial da chave, onde é realizada a soma entre chave da ronda e a matriz de estado, através do uso de um “ou exclusivo” (XOR), o estado passa por operações tais como, SubBytes (substituição de bytes utilizando a função não linear SBox), ShiftRows (troca da posição dos bytes de cada linha do estado, com rotações à esquerda), MixColumns (multiplicação das colunas do estado pela matriz seguinte) e AddRoundKey (XOR com a chave da ronda). A última ronda é distinta, sem operações MixColumns. A desencriptação inverte essas operações, incluindo InvSubBytes, InvShiftRows e InvMixColumns, com a última ronda diferenciada pela ausência de InvMixColumns. Cada ronda utiliza uma rede de permutação e substituição, tornando o AES adequado para implementação em ambientes tanto de hardware quanto de software \cite{Patil.16, Resende.14, Azevedo.13}. No contexto das cifras contínuas, o algoritmo ChaCha20, desenvolvido por Daniel J. Bernstein em 2008, destaca-se pela sua fiabilidade e velocidade superior, quando comparada ao AES em sistemas desprovidos de aceleradores de hardware \cite{Bernstein.08, Semenov.20}. Ao utilizar uma chave secreta de 256 bits e um valor aleatório ou pseudo-aleatório adicional conhecido como nonce de 96 bits, o ChaCha20 gera um keystream essencial para o processo de criptografia. O nonce desempenha um papel crucial, pois não pode ser repetido após a geração de um keystream, garantindo a segurança do algoritmo contra-ataques de repetição. O ChaCha20 é capaz de gerar uma grande quantidade de matrizes 4x4 distintas, a partir da chave e do nonce, que são utilizadas para criar o keystream. Esse keystream é dividido em chaves de criptografia, cada uma com o mesmo número de bits da mensagem original. O processo de encriptação envolve uma operação XOR entre a mensagem original e a chave de criptografia, resultando na mensagem cifrada. Tanto o emissor quanto o recetor são capazes de gerar o mesmo keystream. Desta forma, o recetor, conhecendo a mesma chave secreta e nonce, pode realizar uma operação XOR entre a mensagem cifrada e a chave de criptografia, recuperando a mensagem original \cite{Semenov.20, Lima}.
+
+Na criptografia assimétrica, também conhecida como criptografia de chave pública, cada utilizador detém um par de chaves: uma chave pública, divulgada publicamente, e uma chave privada, mantida em segredo. Ambas as chaves são necessárias para realizar operações, como a assinatura digital, onde os dados são encriptados com a chave privada para garantir a autenticidade do remetente. Por exemplo, um envelope digital, que inclui uma mensagem assinada pela chave pública do destinatário, atua como meio de controlo de acesso, assegurando que somente o destinatário pretendido tenha a capacidade de desencriptar a mensagem, uma vez que detém a chave privada necessária para o efeito. A criptografia assimétrica é frequentemente empregue na troca de chaves, estabelecendo a base para a utilização subsequente da criptografia simétrica na comunicação, em que uma parte gera uma chave secreta, cifra-a com a chave pública do destinatário, e este decifra-a utilizando a sua chave privada. Esta técnica de criptografia é utilizada para garantir a segurança em emails, na internet e noutros sistemas que requerem uma troca segura de chaves através da rede pública \cite{Johnson.20}.
+
+Um exemplo notável de criptografia assimétrica é a técnica conhecida como criptografia de curva elíptica. Neste método, uma função unidirecional é utilizada, baseada na aplicação de logaritmos discretos a curvas elípticas. Esta técnica oferece uma segurança por bit superior quando comparada a sistemas que utilizam logaritmos discretos ou fatorização de números primos. Adicionalmente, este algoritmo requer menos recursos computacionais devido à utilização de chaves mais curtas, tornando-se uma opção eficiente para dispositivos com baixo consumo de energia \cite{Conrad.17}.
+ 
+
+\chapter{Resultados}
+\section{Estatísticas de comprometimento de dados antes e após a aplicação da criptografia}
+Há milhares de anos atrás a criptografia era de fácil entendimento, pois eram métodos que usavam papel e caneta. No inicio do século XX, muito depois da revolução industrial, começaram por criar métodos mais complexos com máquinas mecânicas e, com o inicio da eletrônica, a complexidade aumentou para que seja impossivel desencriptar algo com papel e caneta. A criptografia mais complexa só era usada em governos e em missões militares, para a sua comunicação, por exemplo, na Segunda Guerra Mundial.
+	Antes da aplicação de criptografia os dados estavam, significativamente, mais expostos, causando um aumento de comprometimento de dados. Depois da aplicação completa, os dados não são mostrados mesmo quando interceptados, se um \textit{hacker} aceder aos seus ficheiros, não vai conseguir ler os dados, pois estão criptografados, e muitos outros beneficios. Por isso, a aplicação da criptografia é importante, mas tem de se combinada com outros métodos. É de salientar que cada vez mais os ataques aumentam, logo não há uma aproximação percentual da relação da criptografia com invasões.\cite{stats}
+\section{Casos de sucesso da criptografia}
+Como foi dito anteriormente, a criptografia é usada em muitas situações, por exemplo, antes de cristo com a cifra de César, na Segunda Guerra Mundial, Transferencia de arquivos importantes com chaves publicas, entre outros.
+A cifra de César foi muito usada para serem transmitidas cartas com mensagens importantes. A criptografia ajudou os soldados na Segunda Guerra Mundial, pois faziam comunicação com os soldados aliados sem que os inimigos descodificassem a mensagem \cite{ww2}, depois para melhorar essa comunicação e incluir ficheiros foi criado a chave publica e os protocologos  para trasações financeiras e trocas de informação sensivel. 
+Em 2016, o FBI teve que \textit{hackear} um iphone de um atirador de San Bernardino que matou 14 pessoas, pois para a proteção do utilizador do Iphone a Apple usa criptografia ao mais alto nivel que nem eles podem fornecer tais informações, mais tarde, a Apple processou o FBI e a equipa de invasores por ter entrado no Iphone.\cite{apple}
+Recentemente, nos anos 2000 e em diante, com a ascenssão das criptomoedas coma tecnologia \textit{blockchain} permite a segurança das transações das moedas virtuais.
+
+
+\label{chap.resultados}
+
+
+\chapter{Análise}
+\label{chap.analise}
+\section{Benefícios da criptografia}
+
+A criptografia oferece-nos muitos beneficios, tendo em conta que os dados estão em constante movimento, seja por mensagens, transações financeiras, transações wifi e muitas outras formas de comunicação. A criptografia em conjunto com outras formas de proteção de dados, como autenticação e segurança no \textit{backend}, pode segurar que os dados comunicados entre dispositivos ou servidores não sejam expostos.
+
+Os pincipais beneficios da criptografia são a garantia da integridade dos dados movimentados, além de impedir terceiros mal intencionados, ainda protege para que os dados não sejam alterados, para fins de fraudes e extorsões. E o mais discutido, a proteção contra interceções de comunicação.
+Muitas entidades exigem criptografia forte, melhorando ainda mais os beneficios, como entidades de saúde, que usam dados pessoais sensiveis, transações de cartão de cédito e débitp e os dados de transação de varejo.\cite{google}
+
+
+
+\section{Desafios enfrentados na aplicação da criptografia}
+
+A aplicação da criptografia é fundamental em segurança, porém com uso indevido pode fazer grandes estragos. 
+
+Criminosos podem aceder dados e criptografá-los para os deixar inacessivel ao dono até que o mesmo pague para saber a \textit{key} da encriptação.
+Se as chaves de criptografia forem pouco eficazes, invasores podem tentar descobrir e usar a mesma chave para todos os arquivos (se as organizações usarem sempre o mesmo metodo) e assim causar um "desastre natual de compromete os servidores". Com o crescimento da computação quântica e processadores capazes de processar grandes quantidades de informações em um intervalo de tempo reduzido, a desencriptação será muito mais eficaz e por isso só com tecnicas de criptografia quânticas é que será possivel fazer chaves mais fortes e seguras.\cite{google}
+Sobre os desafios na criptografia quântica, vemos a dificuldade de a tornar pratica, pois requer a transmição de qubits que são fracos e sensiveis a interferencias, logo a longa distancia, fica bastante complicado funcionar. Para ajudar nesse processo pode ser muito dispendioso. O segundo é estabelecer confiança, pois a criptografia quântica funciona em duas partes e se alguma for interceptada, todo o distema fica comprometido. O terceiro é sobre a falta de um padrão, pois a tecnologia é recente e ainda não há experiencias necessarias para saber a melhor utilização dela.
+
+
+
+
+
+
+\chapter{Conclusões}
+\label{chap.conclusao}
+
+
+
+\chapter*{Contribuições dos autores}
+
+
+
+\vspace{10pt}
+\textbf{Indicar a percentagem de contribuição de cada autor.}\\
+
+
+\ac{tf} , \ac{sp} : xx\%, yy\%\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter*{Acrónimos}
+\begin{acronym}\acro{ua}[UA]{Universidade de Aveiro}
+\acro{leci}[LECI]{Licenciatura em Engenharia de Computadores e Informática}
+
+\acro{tf}[TF]{Tiago Fernandes}
+\acro{sp}[SP]{Simone Pascoal}
+
+\end{acronym}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\printbibliography
+
+\end{document}

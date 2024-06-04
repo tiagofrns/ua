@@ -1,0 +1,449 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Patil.16}{article}{}
+      \name{author}{4}{}{%
+        {{hash=c384a581ae00d0e4b88254779c5626b9}{%
+           family={Patil},
+           familyi={P\bibinitperiod},
+           given={Priyadarshini},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e7088256263f43696d6370dc7c7c5d1c}{%
+           family={Narayankar},
+           familyi={N\bibinitperiod},
+           given={Prashant},
+           giveni={P\bibinitperiod}}}%
+        {{hash=6ff1b1d2753362c8d7ef35089e396054}{%
+           family={D.G.},
+           familyi={D\bibinitperiod},
+           given={Narayan},
+           giveni={N\bibinitperiod}}}%
+        {{hash=e878b8c01f865473e9ff6942a0d040c2}{%
+           family={S.M.},
+           familyi={S\bibinitperiod},
+           given={Meena},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{9aabc62e368af68eea11c8ec8f65c583}
+      \strng{fullhash}{c20e4f0710a5287f40dc1b1abbaa6177}
+      \strng{bibnamehash}{c20e4f0710a5287f40dc1b1abbaa6177}
+      \strng{authorbibnamehash}{c20e4f0710a5287f40dc1b1abbaa6177}
+      \strng{authornamehash}{9aabc62e368af68eea11c8ec8f65c583}
+      \strng{authorfullhash}{c20e4f0710a5287f40dc1b1abbaa6177}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Procedia Computer Science}
+      \field{title}{A Comprehensive evaluation of cryptographic algorithms: DES, 3DES, AES, RSA and Blowfish}
+      \field{volume}{78}
+      \field{year}{2016}
+      \field{pages}{617\bibrangedash 624}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.procs.2016.02.108
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1877050916001101
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1877050916001101
+      \endverb
+    \endentry
+    \entry{Gencoglu.19}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b4d70be884e4f08ece80181be08d1ebe}{%
+           family={Gençoğlu},
+           familyi={G\bibinitperiod},
+           given={M.\bibnamedelimi Tuncay},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{b4d70be884e4f08ece80181be08d1ebe}
+      \strng{fullhash}{b4d70be884e4f08ece80181be08d1ebe}
+      \strng{bibnamehash}{b4d70be884e4f08ece80181be08d1ebe}
+      \strng{authorbibnamehash}{b4d70be884e4f08ece80181be08d1ebe}
+      \strng{authornamehash}{b4d70be884e4f08ece80181be08d1ebe}
+      \strng{authorfullhash}{b4d70be884e4f08ece80181be08d1ebe}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IOSR Journal of Computer Engineering (IOSR-JCE)}
+      \field{title}{Importance of Cryptography in Information Security}
+      \field{year}{2019}
+      \field{pages}{65\bibrangedash 68}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.9790/0661-2101026568
+      \endverb
+      \verb{urlraw}
+      \verb https://www.researchgate.net/publication/331641251
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/publication/331641251
+      \endverb
+    \endentry
+    \entry{Conrad.17}{incollection}{}
+      \name{author}{3}{}{%
+        {{hash=c0a63dbac40976a05cdda9e7f94093ea}{%
+           family={Conrad},
+           familyi={C\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=d7d2bb889ab5edf31a8bf593f886e29f}{%
+           family={Misenar},
+           familyi={M\bibinitperiod},
+           given={Seth},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f30094e97a0e508435bc138cc3fff331}{%
+           family={Feldman},
+           familyi={F\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Syngress}%
+      }
+      \strng{namehash}{ad26ad5c50b187d61e49ad527ddd2f83}
+      \strng{fullhash}{ad26ad5c50b187d61e49ad527ddd2f83}
+      \strng{bibnamehash}{ad26ad5c50b187d61e49ad527ddd2f83}
+      \strng{authorbibnamehash}{ad26ad5c50b187d61e49ad527ddd2f83}
+      \strng{authornamehash}{ad26ad5c50b187d61e49ad527ddd2f83}
+      \strng{authorfullhash}{ad26ad5c50b187d61e49ad527ddd2f83}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Eleventh Hour CISSP®}
+      \field{edition}{3rd}
+      \field{isbn}{978-0-12-811248-9}
+      \field{title}{Chapter 3 - Domain 3: Security engineering}
+      \field{year}{2017}
+      \field{pages}{47\bibrangedash 93}
+      \range{pages}{47}
+      \verb{doi}
+      \verb 10.1016/B978-0-12-811248-9.00003-6
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/B9780128112489000036
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/B9780128112489000036
+      \endverb
+    \endentry
+    \entry{Resende.14}{masterthesis}{}
+      \name{author}{1}{}{%
+        {{hash=d8ebd027597043017d0e1577eb7c7603}{%
+           family={Resende},
+           familyi={R\bibinitperiod},
+           given={João\bibnamedelimb Carlos\bibnamedelima Cabrita},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Instituto Superior Técnico da Universidade de Lisboa}%
+      }
+      \strng{namehash}{d8ebd027597043017d0e1577eb7c7603}
+      \strng{fullhash}{d8ebd027597043017d0e1577eb7c7603}
+      \strng{bibnamehash}{d8ebd027597043017d0e1577eb7c7603}
+      \strng{authorbibnamehash}{d8ebd027597043017d0e1577eb7c7603}
+      \strng{authornamehash}{d8ebd027597043017d0e1577eb7c7603}
+      \strng{authorfullhash}{d8ebd027597043017d0e1577eb7c7603}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Flexible and compact muti-algorithm cryptographic engine}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://scholar.tecnico.ulisboa.pt/records/BskD95YefV8z8ZW4In6pdy4jrKNvzjXQdhyB
+      \endverb
+      \verb{url}
+      \verb https://scholar.tecnico.ulisboa.pt/records/BskD95YefV8z8ZW4In6pdy4jrKNvzjXQdhyB
+      \endverb
+    \endentry
+    \entry{Azevedo.13}{masterthesis}{}
+      \name{author}{1}{}{%
+        {{hash=4df580ddab8cc270ab6757b348a2952b}{%
+           family={Azevedo},
+           familyi={A\bibinitperiod},
+           given={Rodrigo\bibnamedelimb Adriano\bibnamedelima Magalhães},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Universidade do Minho}%
+      }
+      \strng{namehash}{4df580ddab8cc270ab6757b348a2952b}
+      \strng{fullhash}{4df580ddab8cc270ab6757b348a2952b}
+      \strng{bibnamehash}{4df580ddab8cc270ab6757b348a2952b}
+      \strng{authorbibnamehash}{4df580ddab8cc270ab6757b348a2952b}
+      \strng{authornamehash}{4df580ddab8cc270ab6757b348a2952b}
+      \strng{authorfullhash}{4df580ddab8cc270ab6757b348a2952b}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Implementação de sistemas de encriptação AES Advanced Encryption Standard em hardware para segurança}
+      \field{year}{2013}
+    \endentry
+    \entry{Bernstein.08}{inbook}{}
+      \name{author}{1}{}{%
+        {{hash=cc77f8b5fa3840f90938819e591aae07}{%
+           family={Bernstein},
+           familyi={B\bibinitperiod},
+           given={Daniel\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=2a8de054790ca19f1bab83c4230f17e6}{%
+           family={Robshaw},
+           familyi={R\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c5f922157cf5f9dc6ca7afcdd70e4788}{%
+           family={Billet},
+           familyi={B\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{cc77f8b5fa3840f90938819e591aae07}
+      \strng{fullhash}{cc77f8b5fa3840f90938819e591aae07}
+      \strng{bibnamehash}{cc77f8b5fa3840f90938819e591aae07}
+      \strng{authorbibnamehash}{cc77f8b5fa3840f90938819e591aae07}
+      \strng{authornamehash}{cc77f8b5fa3840f90938819e591aae07}
+      \strng{authorfullhash}{cc77f8b5fa3840f90938819e591aae07}
+      \strng{editorbibnamehash}{8c6d3f039a0c10e196c94dec91975ddf}
+      \strng{editornamehash}{8c6d3f039a0c10e196c94dec91975ddf}
+      \strng{editorfullhash}{8c6d3f039a0c10e196c94dec91975ddf}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{New stream cipher designs: The eSTREAM finalists}
+      \field{isbn}{978-3-540-68351-3}
+      \field{title}{The Salsa20 family of stream ciphers}
+      \field{year}{2008}
+      \field{pages}{84\bibrangedash 97}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1007/978-3-540-68351-3_8
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-540-68351-3_8
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-540-68351-3_8
+      \endverb
+    \endentry
+    \entry{Semenov.20}{masterthesis}{}
+      \name{author}{1}{}{%
+        {{hash=83febe13a0a5341c2b232ad482e804f8}{%
+           family={Semenov},
+           familyi={S\bibinitperiod},
+           given={Igor},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of Alabama in Huntsville}%
+      }
+      \strng{namehash}{83febe13a0a5341c2b232ad482e804f8}
+      \strng{fullhash}{83febe13a0a5341c2b232ad482e804f8}
+      \strng{bibnamehash}{83febe13a0a5341c2b232ad482e804f8}
+      \strng{authorbibnamehash}{83febe13a0a5341c2b232ad482e804f8}
+      \strng{authornamehash}{83febe13a0a5341c2b232ad482e804f8}
+      \strng{authorfullhash}{83febe13a0a5341c2b232ad482e804f8}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An implementation of ChaCha20 stream cypher in all-programmable SoCs}
+      \field{year}{2020}
+    \endentry
+    \entry{Lima}{article}{}
+      \name{author}{5}{}{%
+        {{hash=88a40fd48a2740de2a84e892779d05e3}{%
+           family={Lima},
+           familyi={L\bibinitperiod},
+           given={Públio\bibnamedelima M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=1021268e7d9f1b77ccee05b6a27d18cf}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Carlos\bibnamedelimb K.\bibnamedelimi P.},
+           giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim P\bibinitperiod},
+           prefix={da},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=34dcc6bff84ed7432c203cb3a2ff7f66}{%
+           family={Farias},
+           familyi={F\bibinitperiod},
+           given={Claudio\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=9e9ecee23d07f49946aee44dbe7fecb6}{%
+           family={Carvalho},
+           familyi={C\bibinitperiod},
+           given={Lilian\bibnamedelima K.},
+           giveni={L\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=6339912ed971920d26c49f8bfabac38d}{%
+           family={Moreira},
+           familyi={M\bibinitperiod},
+           given={Marcos\bibnamedelima V.},
+           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{89701981d8738d78c5c47d4c78018734}
+      \strng{fullhash}{ce7aa9b4422621a17959372fe89df4ed}
+      \strng{bibnamehash}{ce7aa9b4422621a17959372fe89df4ed}
+      \strng{authorbibnamehash}{ce7aa9b4422621a17959372fe89df4ed}
+      \strng{authornamehash}{89701981d8738d78c5c47d4c78018734}
+      \strng{authorfullhash}{ce7aa9b4422621a17959372fe89df4ed}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Uso da cifra de fluxo ChaCha20 em redes de automação}
+    \endentry
+    \entry{Johnson.20}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=60cf987b7c975d43e90f5de1c924aa8b}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Leighton},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{60cf987b7c975d43e90f5de1c924aa8b}
+      \strng{fullhash}{60cf987b7c975d43e90f5de1c924aa8b}
+      \strng{bibnamehash}{60cf987b7c975d43e90f5de1c924aa8b}
+      \strng{authorbibnamehash}{60cf987b7c975d43e90f5de1c924aa8b}
+      \strng{authornamehash}{60cf987b7c975d43e90f5de1c924aa8b}
+      \strng{authorfullhash}{60cf987b7c975d43e90f5de1c924aa8b}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Security controls evaluation, testing, and assessment handbook}
+      \field{edition}{2nd}
+      \field{isbn}{978-0-12-818427-1}
+      \field{title}{Chapter 11 - Security component fundamentals for assessment}
+      \field{year}{2020}
+      \field{pages}{471\bibrangedash 536}
+      \range{pages}{66}
+      \verb{doi}
+      \verb 10.1016/B978-0-12-818427-1.00011-2
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/B9780128184271000112
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/B9780128184271000112
+      \endverb
+    \endentry
+    \entry{stats}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c5cb91f5175959e82900fd291ba20bcb}{%
+           family={Griffiths},
+           familyi={G\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{c5cb91f5175959e82900fd291ba20bcb}
+      \strng{fullhash}{c5cb91f5175959e82900fd291ba20bcb}
+      \strng{bibnamehash}{c5cb91f5175959e82900fd291ba20bcb}
+      \strng{authorbibnamehash}{c5cb91f5175959e82900fd291ba20bcb}
+      \strng{authornamehash}{c5cb91f5175959e82900fd291ba20bcb}
+      \strng{authorfullhash}{c5cb91f5175959e82900fd291ba20bcb}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Latest 2023 Cyber Crime Statistics}
+    \endentry
+    \entry{ww2}{article}{}
+      \name{author}{1}{}{%
+        {{hash=16784aa788faf5092f36e93a4c26c9d1}{%
+           family={nationalmuseum},
+           familyi={n\bibinitperiod}}}%
+      }
+      \strng{namehash}{16784aa788faf5092f36e93a4c26c9d1}
+      \strng{fullhash}{16784aa788faf5092f36e93a4c26c9d1}
+      \strng{bibnamehash}{16784aa788faf5092f36e93a4c26c9d1}
+      \strng{authorbibnamehash}{16784aa788faf5092f36e93a4c26c9d1}
+      \strng{authornamehash}{16784aa788faf5092f36e93a4c26c9d1}
+      \strng{authorfullhash}{16784aa788faf5092f36e93a4c26c9d1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{nationalmuseum}
+      \field{title}{War of Secrets: Cryptology in WWII}
+    \endentry
+    \entry{apple}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c9a8d71a7bb12b88ad839ba98e7d1ab4}{%
+           family={Kharpal},
+           familyi={K\bibinitperiod},
+           given={Arjun},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c9a8d71a7bb12b88ad839ba98e7d1ab4}
+      \strng{fullhash}{c9a8d71a7bb12b88ad839ba98e7d1ab4}
+      \strng{bibnamehash}{c9a8d71a7bb12b88ad839ba98e7d1ab4}
+      \strng{authorbibnamehash}{c9a8d71a7bb12b88ad839ba98e7d1ab4}
+      \strng{authornamehash}{c9a8d71a7bb12b88ad839ba98e7d1ab4}
+      \strng{authorfullhash}{c9a8d71a7bb12b88ad839ba98e7d1ab4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CNBC}
+      \field{title}{Apple vs FBI: All you need to know}
+      \field{year}{2016}
+    \endentry
+    \entry{google}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Google}%
+      }
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{O que é a criptografia?}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

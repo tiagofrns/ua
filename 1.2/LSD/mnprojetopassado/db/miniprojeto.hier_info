@@ -1,0 +1,96 @@
+|Fase1
+SW[0] => bin7segdecoder:wrk.binInput[0]
+SW[0] => mux4_1:mux41.sel[0]
+SW[1] => bin7segdecoder:wrk.binInput[1]
+SW[1] => mux4_1:mux41.sel[1]
+LEDR[0] <= mux4_1:mux41.muxout[4]
+LEDR[1] <= mux4_1:mux41.muxout[5]
+LEDR[2] <= mux4_1:mux41.muxout[6]
+LEDR[3] <= mux4_1:mux41.muxout[7]
+LEDG[0] <= mux4_1:mux41.muxout[0]
+LEDG[1] <= mux4_1:mux41.muxout[1]
+LEDG[2] <= mux4_1:mux41.muxout[2]
+LEDG[3] <= mux4_1:mux41.muxout[3]
+HEX0[0] <= bin7segdecoder:wrk.decOut_n[0]
+HEX0[1] <= bin7segdecoder:wrk.decOut_n[1]
+HEX0[2] <= bin7segdecoder:wrk.decOut_n[2]
+HEX0[3] <= bin7segdecoder:wrk.decOut_n[3]
+HEX0[4] <= bin7segdecoder:wrk.decOut_n[4]
+HEX0[5] <= bin7segdecoder:wrk.decOut_n[5]
+HEX0[6] <= bin7segdecoder:wrk.decOut_n[6]
+
+
+|Fase1|Bin7SegDecoder:wrk
+binInput[0] => Equal0.IN1
+binInput[0] => Equal1.IN0
+binInput[0] => Equal2.IN1
+binInput[1] => Equal0.IN0
+binInput[1] => Equal1.IN1
+binInput[1] => Equal2.IN0
+enable => decOut_n.OUTPUTSELECT
+enable => decOut_n.OUTPUTSELECT
+enable => decOut_n.OUTPUTSELECT
+enable => decOut_n.OUTPUTSELECT
+enable => decOut_n.OUTPUTSELECT
+enable => decOut_n.OUTPUTSELECT
+enable => decOut_n[1].DATAIN
+decOut_n[0] <= decOut_n.DB_MAX_OUTPUT_PORT_TYPE
+decOut_n[1] <= enable.DB_MAX_OUTPUT_PORT_TYPE
+decOut_n[2] <= decOut_n.DB_MAX_OUTPUT_PORT_TYPE
+decOut_n[3] <= decOut_n.DB_MAX_OUTPUT_PORT_TYPE
+decOut_n[4] <= decOut_n.DB_MAX_OUTPUT_PORT_TYPE
+decOut_n[5] <= decOut_n.DB_MAX_OUTPUT_PORT_TYPE
+decOut_n[6] <= decOut_n.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Fase1|Mux4_1:mux41
+muxin1[0] => muxout.DATAB
+muxin1[1] => muxout.DATAB
+muxin1[2] => muxout.DATAB
+muxin1[3] => muxout.DATAB
+muxin1[4] => muxout.DATAB
+muxin1[5] => muxout.DATAB
+muxin1[6] => muxout.DATAB
+muxin1[7] => muxout.DATAB
+muxin2[0] => muxout.DATAB
+muxin2[1] => muxout.DATAB
+muxin2[2] => muxout.DATAB
+muxin2[3] => muxout.DATAB
+muxin2[4] => muxout.DATAB
+muxin2[5] => muxout.DATAB
+muxin2[6] => muxout.DATAB
+muxin2[7] => muxout.DATAB
+muxin3[0] => muxout.DATAB
+muxin3[1] => muxout.DATAB
+muxin3[2] => muxout.DATAB
+muxin3[3] => muxout.DATAB
+muxin3[4] => muxout.DATAB
+muxin3[5] => muxout.DATAB
+muxin3[6] => muxout.DATAB
+muxin3[7] => muxout.DATAB
+muxin4[0] => muxout.DATAB
+muxin4[1] => muxout.DATAB
+muxin4[2] => muxout.DATAB
+muxin4[3] => muxout.DATAB
+muxin4[4] => muxout.DATAB
+muxin4[5] => muxout.DATAB
+muxin4[6] => muxout.DATAB
+muxin4[7] => muxout.DATAB
+sel[0] => Equal0.IN1
+sel[0] => Equal1.IN0
+sel[0] => Equal2.IN1
+sel[0] => Equal3.IN1
+sel[1] => Equal0.IN0
+sel[1] => Equal1.IN1
+sel[1] => Equal2.IN0
+sel[1] => Equal3.IN0
+muxout[0] <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxout[1] <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxout[2] <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxout[3] <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxout[4] <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxout[5] <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxout[6] <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+muxout[7] <= muxout.DB_MAX_OUTPUT_PORT_TYPE
+
+

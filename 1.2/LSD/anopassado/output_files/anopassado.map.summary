@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Apr  9 10:26:40 2024
+Quartus Prime Version : 22.1std.2 Build 922 07/20/2023 SC Lite Edition
+Revision Name : anopassado
+Top-level Entity Name : anopassado
+Family : Cyclone IV E
+Total logic elements : 96
+    Total combinational functions : 96
+    Dedicated logic registers : 56
+Total registers : 56
+Total pins : 18
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

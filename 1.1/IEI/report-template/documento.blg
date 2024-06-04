@@ -1,0 +1,15 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'documento.blg'
+[93] biber:340> INFO - === sáb nov 25, 2023, 22:33:10
+[114] Biber.pm:418> INFO - Reading 'documento.bcf'
+[187] Biber.pm:972> INFO - Found 13 citekeys in bib section 0
+[199] Biber.pm:4383> INFO - Processing section 0
+[211] Biber.pm:4574> INFO - Looking for bibtex file 'bibliografia.bib' for section 0
+[212] bibtex.pm:1713> INFO - LaTeX decoding ...
+[224] bibtex.pm:1518> INFO - Found BibTeX data source 'bibliografia.bib'
+[361] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[361] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[361] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'pt-PT'
+[361] Biber.pm:4209> INFO - No sort tailoring available for locale 'pt-PT'
+[379] bbl.pm:654> INFO - Writing 'documento.bbl' with encoding 'UTF-8'
+[388] bbl.pm:757> INFO - Output to documento.bbl

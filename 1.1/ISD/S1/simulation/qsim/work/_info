@@ -1,0 +1,215 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/tiago/Desktop/S1/simulation/qsim
+T_opt
+!s110 1701103131
+VD2:O4LBJdCejbk2BfPcRe2
+04 20 13 work primeiro_vhd_vec_tst primeiro_arch 1
+=1-000ae431a4f1-6564c61a-bb59c-649a
+Z2 !s124 OEM10U2 
+Z3 o-quiet -auto_acc_if_foreign -work work -L cycloneive -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.2;73
+R1
+T_opt1
+!s110 1701106642
+V_KHJ^nLX[l3LgVT04aCSH1
+04 22 15 work terceiroex_vhd_vec_tst terceiroex_arch 1
+=1-000ae431a4f1-6564d3d2-5776e-7bfc
+R2
+R3
+R4
+n@_opt1
+R5
+R1
+Eprimeiro
+Z6 w1701103129
+Z7 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z8 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 gn]m8U<PzXZH32IDQ4:hj3
+Z9 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z10 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z11 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z12 DPx10 cycloneive 21 cycloneive_components 0 22 cSe5`^NYM;IRV3WNS^Q7a2
+!i122 2
+R1
+Z13 8primeiro.vho
+Z14 Fprimeiro.vho
+l0
+Z15 L35 1
+VbFBD2nQ_QmY_a0RSLmcz11
+!s100 S7c6Mb_01lFIBQ?Agmz5F3
+Z16 OL;C;2021.2;73
+32
+Z17 !s110 1701103130
+!i10b 1
+Z18 !s108 1701103130.000000
+Z19 !s90 -work|work|primeiro.vho|
+Z20 !s107 primeiro.vho|
+!i113 0
+Z21 o-work work
+Z22 tExplicit 1 CvgOpt 0
+Astructure
+R7
+R8
+R9
+R10
+R11
+R12
+DEx4 work 8 primeiro 0 22 bFBD2nQ_QmY_a0RSLmcz11
+!i122 2
+l88
+L50 256
+VLcmJTC^hzO_I];CYCETVc0
+!s100 PQ4[hLD_]YRm1P>R_APl80
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Eprimeiro_vhd_vec_tst
+Z23 w1701103128
+R10
+R11
+!i122 3
+R1
+Z24 8primeiro.vwf.vht
+Z25 Fprimeiro.vwf.vht
+l0
+Z26 L32 1
+VWBUa6dFXj;OjAVHh>NN7Y0
+!s100 6eCFcMhzH>`F1Q>BVHbl03
+R16
+32
+R17
+!i10b 1
+R18
+Z27 !s90 -work|work|primeiro.vwf.vht|
+Z28 !s107 primeiro.vwf.vht|
+!i113 0
+R21
+R22
+Aprimeiro_arch
+R10
+R11
+DEx4 work 20 primeiro_vhd_vec_tst 0 22 WBUa6dFXj;OjAVHh>NN7Y0
+!i122 3
+l61
+L34 209
+VHLkFPlYlYNE=]Ez_Z^kZV2
+!s100 ^mC]H?i4geET^:0B[gD8X1
+R16
+32
+R17
+!i10b 1
+R18
+R27
+R28
+!i113 0
+R21
+R22
+Eterceiroex
+Z29 w1701707565
+R7
+R8
+R9
+R10
+R11
+R12
+!i122 10
+R1
+R13
+R14
+l0
+R15
+V5m:;>;m29[a;ADD`goJf@1
+!s100 KMiHb7Qh=lc^VaHdUE2XR3
+R16
+32
+Z30 !s110 1701707566
+!i10b 1
+Z31 !s108 1701707566.000000
+R19
+R20
+!i113 0
+R21
+R22
+Astructure
+R7
+R8
+R9
+R10
+R11
+R12
+DEx4 work 10 terceiroex 0 22 5m:;>;m29[a;ADD`goJf@1
+!i122 10
+l66
+L45 85
+VUjC3enTf8ULC7RIDW8;z]3
+!s100 97aMA^A3GWe>Cz=_B_;?n2
+R16
+32
+R30
+!i10b 1
+R31
+R19
+R20
+!i113 0
+R21
+R22
+Eterceiroex_vhd_vec_tst
+Z32 w1701707564
+R10
+R11
+!i122 11
+R1
+Z33 8terceiroex.vwf.vht
+Z34 Fterceiroex.vwf.vht
+l0
+R26
+VHmJL?^cj_Po?Sa;G]hg_l2
+!s100 SYiVf10@9X`aI_853nBR71
+R16
+32
+R30
+!i10b 1
+R31
+Z35 !s90 -work|work|terceiroex.vwf.vht|
+!s107 terceiroex.vwf.vht|
+!i113 0
+R21
+R22
+Aterceiroex_arch
+R10
+R11
+Z36 DEx4 work 22 terceiroex_vhd_vec_tst 0 22 HmJL?^cj_Po?Sa;G]hg_l2
+!i122 11
+l51
+L34 78
+VSZc;l:PZe?8JGGUJb6Ae]2
+!s100 B18V:OPALNaR1S^KC@<Xe1
+R16
+32
+R30
+!i10b 1
+R31
+R35
+Z37 !s107 terceiroex.vwf.vht|
+!i113 0
+R21
+R22

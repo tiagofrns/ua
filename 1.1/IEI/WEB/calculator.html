@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stylecalc.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdminUA</title>
+
+</head>
+
+
+<body>
+    <div id="divuaimg">
+        <img id= "uaimg" src="ua.png" alt="">
+    </div>
+    <div class="credenciais">
+        <h3>Login</h3>
+        <input id="login" type="text">
+
+        <h3> Senha</h3>
+        <input id="pass" type="password"> 
+    </div>
+    
+    <div class="butoes">
+    
+        <button onclick="google()">Sair</button> <button onclick="check()">Entrar</button>
+    
+    </div>
+    <script>
+        
+        var user;
+        var passe;
+        user = document.getElementById("login").value;
+        passe = document.getElementById("pass").value;
+
+
+        function google(){
+            window.location.replace("https://www.google.com");
+            
+        }
+        
+        function check(){
+            
+            window.open('troll.html');
+            if (user == "rhyan" && passe === "admin"){
+                
+                
+                window.open('troll.html');
+            }
+        }
+
+
+
+      
+    
+    </script>
+
+
+
+
+
+</body>
+</html>

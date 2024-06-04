@@ -1,0 +1,114 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/tiago/Desktop/LSD/aula3tpc/simulation/qsim
+T_opt
+Z2 !s110 1710237895
+V[Zz`FAe<1I;NI:_LgobC82
+04 20 13 work aula3tpc_vhd_vec_tst aula3tpc_arch 1
+=1-000ae431a4f1-65f028c7-9edfe-22f7
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work -L cycloneive -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim +acc
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+R1
+Eaula3tpc
+Z3 w1710239066
+Z4 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z5 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 gn]m8U<PzXZH32IDQ4:hj3
+Z6 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z9 DPx10 cycloneive 21 cycloneive_components 0 22 cSe5`^NYM;IRV3WNS^Q7a2
+!i122 4
+R1
+Z10 8Aula3TPC.vho
+Z11 FAula3TPC.vho
+l0
+L35 1
+VX>[`[3MG^j;[eI[kC4UTo3
+!s100 QS5RL^VoH;c7GMX<9ezf=0
+Z12 OL;C;2021.2;73
+32
+Z13 !s110 1710239067
+!i10b 1
+Z14 !s108 1710239067.000000
+Z15 !s90 -work|work|Aula3TPC.vho|
+Z16 !s107 Aula3TPC.vho|
+!i113 0
+Z17 o-work work
+Z18 tExplicit 1 CvgOpt 0
+Astructure
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 8 aula3tpc 0 22 X>[`[3MG^j;[eI[kC4UTo3
+!i122 4
+l84
+L43 364
+VMSGGaJzCCXE`:U]i]mi<V2
+!s100 GDF`jT8`U;f^6]YATW3jZ0
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Eaula3tpc_vhd_vec_tst
+Z19 w1710239064
+R7
+R8
+!i122 5
+R1
+Z20 8Waveform.vwf.vht
+Z21 FWaveform.vwf.vht
+l0
+L32 1
+VM@ae14e`Yo5<cFf_h6EmF0
+!s100 hZUVZa<X7bOa?<D9eDMWF2
+R12
+32
+R13
+!i10b 1
+R14
+Z22 !s90 -work|work|Waveform.vwf.vht|
+Z23 !s107 Waveform.vwf.vht|
+!i113 0
+R17
+R18
+Aaula3tpc_arch
+R7
+R8
+Z24 DEx4 work 20 aula3tpc_vhd_vec_tst 0 22 M@ae14e`Yo5<cFf_h6EmF0
+!i122 5
+l47
+Z25 L34 73
+Z26 V?9h3T7R7@V^`ojdMLDHST2
+Z27 !s100 eejNk`QGTEJXIeEhW<aCQ1
+R12
+32
+R13
+!i10b 1
+R14
+R22
+R23
+!i113 0
+R17
+R18
