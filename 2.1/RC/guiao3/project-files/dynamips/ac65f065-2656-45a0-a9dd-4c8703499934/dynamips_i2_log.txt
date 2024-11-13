@@ -1,0 +1,39 @@
+Oct 22 15:26:49.884 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Oct 22 15:26:49.884 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 57651.
+Oct 22 15:26:49.893 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 22 15:26:49.893 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tiago/Desktop/ua/2.1/RC/guiao3/project-files/dynamips 
+Oct 22 15:26:49.893 GENERAL: working_dir=/home/tiago/Desktop/ua/2.1/RC/guiao3/project-files/dynamips
+Oct 22 15:26:49.893 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tiago/Desktop/ua/2.1/RC/guiao3/project-files/dynamips/ac65f065-2656-45a0-a9dd-4c8703499934 
+Oct 22 15:26:49.893 GENERAL: working_dir=/home/tiago/Desktop/ua/2.1/RC/guiao3/project-files/dynamips/ac65f065-2656-45a0-a9dd-4c8703499934
+Oct 22 15:26:49.893 HYPERVISOR: exec_cmd: vm create R2 2 c3725 
+Oct 22 15:26:49.894 VM: VM R2 created.
+Oct 22 15:26:49.894 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5007 
+Oct 22 15:26:49.894 HYPERVISOR: exec_cmd: c3725 get_mac_addr R2 
+Oct 22 15:26:49.894 HYPERVISOR: exec_cmd: vm set_ios R2 /home/tiago/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Oct 22 15:26:49.894 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 22 15:26:49.894 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x60a7ff48 
+Oct 22 15:26:49.894 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Oct 22 15:26:49.895 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Oct 22 15:26:49.895 HYPERVISOR: exec_cmd: vm get_status R2 
+Oct 22 15:26:49.895 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 NM-16ESW 
+Oct 22 15:26:49.924 HYPERVISOR: exec_cmd: vm set_ios R2 /home/tiago/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Oct 22 15:27:40.421 HYPERVISOR: exec_cmd: vm set_ios R2 /home/tiago/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Oct 22 15:27:40.422 HYPERVISOR: exec_cmd: vm rename R2 ESW1 
+Oct 22 15:27:40.447 HYPERVISOR: exec_cmd: vm set_ios ESW1 /home/tiago/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Oct 22 15:27:45.694 HYPERVISOR: exec_cmd: vm set_ios ESW1 /home/tiago/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Oct 22 15:28:44.944 HYPERVISOR: exec_cmd: nio create_udp udp-ee3c1d4d-d6c3-4ff0-bbb1-9fdfb66a1eec 20002 127.0.0.1 20003 
+Oct 22 15:28:45.156 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW1 1 5 udp-ee3c1d4d-d6c3-4ff0-bbb1-9fdfb66a1eec 
+Oct 22 15:28:45.157 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Oct 22 15:28:48.951 HYPERVISOR: exec_cmd: nio create_udp udp-c12c0660-ad35-4dfa-bd13-4fe7fa2ba156 20006 127.0.0.1 20007 
+Oct 22 15:28:48.952 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW1 1 6 udp-c12c0660-ad35-4dfa-bd13-4fe7fa2ba156 
+Oct 22 15:28:48.952 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Oct 22 15:29:02.433 HYPERVISOR: exec_cmd: nio create_udp udp-0e30d4e2-f715-44c4-92dc-655221f00ae6 20010 127.0.0.1 20011 
+Oct 22 15:29:02.434 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW1 1 7 udp-0e30d4e2-f715-44c4-92dc-655221f00ae6 
+Oct 22 15:29:02.434 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Oct 22 15:31:55.283 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Oct 22 15:31:55.283 HYPERVISOR: exec_cmd: vm extract_config ESW1 
+Oct 22 15:31:55.284 HYPERVISOR: exec_cmd: vm delete ESW1 
+Oct 22 15:31:55.284 VM: VM ESW1 destroyed.
+Oct 22 15:31:55.284 HYPERVISOR: exec_cmd: hypervisor stop 
+Oct 22 15:31:55.784 HYPERVISOR: Stopped.
+Oct 22 15:31:55.784 GENERAL: reset done.

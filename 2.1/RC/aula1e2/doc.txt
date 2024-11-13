@@ -1,0 +1,38 @@
+
+6.
+Destination: Clevo_25:e7:c7 (d4:93:90:25:e7:c7)
+Source: DLink_fe:7f:8a (00:19:5b:fe:7f:8a)
+Type: IPv4 (0x0800)</paragraph>
+Type: 0 (Echo (ping) reply) 00
+Type: 8 (Echo (ping) reply) 08
+Protocol: ICMP(1)
+
+7.
+REQUEST:
+Destination: Clevo_25:e7:c7 (d4:93:90:25:e7:c7)
+Source: ASUSTekCOMPU_40:7b:c9 (58:11:22:40:7b:c9)
+
+Arp Packet
+ 	Sender MAC address: ASUSTekCOMPU_40:7b:c9 (58:11:22:40:7b:c9)
+ 	Sender IP address: 192.1.1.32
+	Target MAC address: Clevo_25:e7:c7 (d4:93:90:25:e7:c7)</paragraph>
+	Target IP address: 192.1.1.2</paragraph>
+RESPONSE:
+	Destination: ASUSTekCOMPU_40:7b:c9 (58:11:22:40:7b:c9)</paragraph>
+	Source: Clevo_25:e7:c7 (d4:93:90:25:e7:c7)
+	Sender MAC address: Clevo_25:e7:c7 (d4:93:90:25:e7:c7)
+	Sender IP address: 192.1.1.2
+	Target MAC address: ASUSTekCOMPU_40:7b:c9 (58:11:22:40:7b:c9)
+	Target IP address: 192.1.1.32
+
+GUIAO 2 
+
+Tudo analisado e esta na pasta o ficheiro do wireshark(FecharWebServer.pcapng).
+
+4.
+
+5.
+Desaparece, pois o PC fica inativo!
+
+8.
+Ficheiro na pasta.
